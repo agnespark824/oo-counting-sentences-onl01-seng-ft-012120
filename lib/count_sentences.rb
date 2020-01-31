@@ -23,13 +23,13 @@ class String
     first_array = self.split("!")
     second_array << first_array
     second_array.flatten!
-    
+    binding.pry
     second_array.each do |index|
       third_array << index.split("?")
     end
     third_array.flatten!
     
-    binding.pry
+    
     third_array each.do |index|
       fourth_array << index.split(".")
     end
