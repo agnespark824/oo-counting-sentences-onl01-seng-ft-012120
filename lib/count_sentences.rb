@@ -17,6 +17,7 @@ class String
   def count_sentences
     new_array = []
     new_array << self.split("!")
+    binding.pry
     new_array.flatten
   end
 end
