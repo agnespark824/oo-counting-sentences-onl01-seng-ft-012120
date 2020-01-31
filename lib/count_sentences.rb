@@ -22,6 +22,7 @@ class String
     third_array = []
     first_array.each do |index|
       third_array << index.split("?")
+    end
     binding.pry
     #second_array.flatten
     new_array.flatten
