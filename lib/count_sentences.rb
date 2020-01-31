@@ -30,6 +30,7 @@ class String
     end
     first_array << third_array
     first_array << fourth_array
+  end
     binding.pry
     #second_array.flatten
     new_array.flatten
