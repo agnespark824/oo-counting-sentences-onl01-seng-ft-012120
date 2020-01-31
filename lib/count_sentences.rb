@@ -19,7 +19,7 @@ class String
     second_array = []
     third_array = []
     fourth_array = []
-    
+    binding.pry
     first_array = self.split("!")
     second_array << first_array
     second_array.flatten!
@@ -32,7 +32,7 @@ class String
     third_array.each do |index|
       fourth_array << index.split(".")
     end
-    binding.pry
+    
     fourth_array.flatten!
 
   
