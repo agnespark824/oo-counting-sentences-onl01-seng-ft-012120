@@ -20,7 +20,6 @@ class String
     first_array << second_array
     binding.pry
     #second_array.flatten
-    binding.pry
     new_array.flatten
   end
 end
