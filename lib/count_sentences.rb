@@ -19,6 +19,9 @@ class String
     second_array = self.split("!")
     first_array << second_array
     first_array.flatten!
+    third_array = []
+    first_array.each do |index|
+      third_array << index.split("?")
     binding.pry
     #second_array.flatten
     new_array.flatten
