@@ -34,6 +34,6 @@ class String
     end
     
     fourth_array.flatten!
-
-  
- end
+    fourth_array.size
+  end
+end
