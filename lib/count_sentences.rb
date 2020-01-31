@@ -23,6 +23,13 @@ class String
     first_array.each do |index|
       third_array << index.split("?")
     end
+    third_array.flatten!
+    fourth_array = []
+    third_array each.do |index|
+      fourth_array << index.split(".")
+    end
+    first_array << third_array
+    first_array << fourth_array
     binding.pry
     #second_array.flatten
     new_array.flatten
