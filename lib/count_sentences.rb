@@ -29,9 +29,10 @@ class String
     end
     third_array.flatten!
     
-    third_array each.do |index|
+    third_array. each do |index|
       fourth_array << index.split(".")
     end
     fourth_array.flatten!
   end
+  binding.pry
  end
