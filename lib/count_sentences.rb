@@ -16,20 +16,23 @@ class String
 
   def count_sentences
     first_array = []
-    second_array = self.split("!")
-    first_array << second_array
-    first_array.flatten!
+    second_array = []
     third_array = []
-    first_array.each do |index|
+    fourth_array = []
+    
+    first_array = self.split("!")
+    second_array << first_array
+    second_array.flatten!
+    
+    second_array.each do |index|
       third_array << index.split("?")
     end
     third_array.flatten!
-    fourth_array = []
+    
+    binding.pry
     third_array each.do |index|
       fourth_array << index.split(".")
     end
-    first_array << third_array
-    first_array << fourth_array
   end
     binding.pry
     #second_array.flatten
