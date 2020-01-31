@@ -34,7 +34,7 @@ class String
       fourth_array << index.split(".")
     end
   end
-    binding.pry
+    
     #second_array.flatten
     new_array.flatten
   end
