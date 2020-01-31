@@ -15,8 +15,9 @@ class String
   end
 
   def count_sentences
-    new_array = []
-    new_array << self.split("!")
+    first_array = []
+    second_array << self.split("!")
+    second_array.flatten each do {|index| index.split("?")}
     binding.pry
     new_array.flatten
   end
