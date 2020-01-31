@@ -18,7 +18,7 @@ class String
     first_array = []
     second_array = self.split("!")
     first_array << second_array
-    first_array.flatten
+    first_array.flatten!
     binding.pry
     #second_array.flatten
     new_array.flatten
