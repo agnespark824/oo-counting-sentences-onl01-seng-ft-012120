@@ -32,7 +32,8 @@ class String
     third_array.each do |index|
       fourth_array << index.split(".")
     end
+    binding.pry
     fourth_array.flatten!
 
-  binding.pry
+  
  end
