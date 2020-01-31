@@ -33,6 +33,6 @@ class String
       fourth_array << index.split(".")
     end
     fourth_array.flatten!
-  end
+
   binding.pry
  end
