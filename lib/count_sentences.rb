@@ -13,13 +13,13 @@ class String
   def exclamation?
     self.end_with?("!")
   end
-
+binding.pry
   def count_sentences
     first_array = []
     second_array = []
     third_array = []
     fourth_array = []
-    binding.pry
+    
     first_array = self.split("!")
     second_array << first_array
     second_array.flatten!
